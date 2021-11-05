@@ -7,13 +7,11 @@
 Ejemplo para comprobar como dos procesos padre-hijo se comunican mediante
 el uso de señales
 */
-/*-------------------------------------------*/
 /* gestión de señales en proceso padre       */
 void manejador( int signal )
 {
  printf("Hijo recibe señal..%d\n", signal);
 }
-/*-------------------------------------------*/
 int main()
 {
   int pid_hijo;  
