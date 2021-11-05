@@ -3,8 +3,7 @@
 #include <string.h>
 #include <fcntl.h>  // para la función open
 #include <unistd.h> // para la función close
-/*
- * En este ejemplo se muestra como abrir flujos de ficheros para escribir y leer texto
+/* En este ejemplo se muestra como abrir flujos de ficheros para escribir y leer texto
  * en los mismos
  */
 int main(void)
