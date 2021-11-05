@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <sys/wait.h>
+
 /*
 En este ejemplo se muestra como se comunican dos procesos, padre e hijo, a través de una
 tubería (pipe)
