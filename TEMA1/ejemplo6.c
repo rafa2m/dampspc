@@ -1,7 +1,8 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <stdio.h>
-//ABUELO-HIJO-NIETO
+//Se utiliza la funciones fork() y wait() para crear un subproceso hijo
+//y esperar a que finalice
 int main() {
   pid_t pid, hijo_pid,pid2,hijo2_pid;
   
