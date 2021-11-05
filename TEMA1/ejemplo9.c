@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <sys/wait.h>
+
 /*
 Ejemplo 1.9, comunicación encadenada de procesos usando pipes
 */
