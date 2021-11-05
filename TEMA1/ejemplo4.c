@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
-//Se crea un proceso hijo y se obtiene y muestra el pid de los dos
+//Se crea un proceso hijo y se obtiene y muestra el pid de los dos procesos
+//Se utilizan las funciones getpid() y getppid()
 int main(void)
 {
 	pid_t pid_actual, pid_padre;
