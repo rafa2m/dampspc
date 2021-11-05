@@ -3,6 +3,10 @@
 #include <stdlib.h>
 #include <fcntl.h>
 #include <unistd.h>
+/*
+Ejemplo para comprobar como dos procesos padre-hijo se comunican mediante
+el uso de señales. Padre e hijo disponen de un manejador de señales
+*/
 /*-------------------------------------------*/
 /* gestión de señales en proceso padre       */
 void gestion_padre( int signal )
